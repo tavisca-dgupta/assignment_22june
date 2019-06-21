@@ -1,0 +1,11 @@
+G:\my.net\assignment_22june\obj\MCD\Debug\netcoreapp2.2\Tavisca.Bootcamp.LanguageBasics.Exercise1.csprojAssemblyReference.cache
+G:\my.net\assignment_22june\obj\MCD\Debug\netcoreapp2.2\Tavisca.Bootcamp.LanguageBasics.Exercise1.csproj.CoreCompileInputs.cache
+G:\my.net\assignment_22june\obj\MCD\Debug\netcoreapp2.2\Tavisca.Bootcamp.LanguageBasics.Exercise1.AssemblyInfoInputs.cache
+G:\my.net\assignment_22june\obj\MCD\Debug\netcoreapp2.2\Tavisca.Bootcamp.LanguageBasics.Exercise1.AssemblyInfo.cs
+G:\my.net\assignment_22june\bin\MCD\Debug\netcoreapp2.2\Tavisca.Bootcamp.LanguageBasics.Exercise1.deps.json
+G:\my.net\assignment_22june\bin\MCD\Debug\netcoreapp2.2\Tavisca.Bootcamp.LanguageBasics.Exercise1.runtimeconfig.json
+G:\my.net\assignment_22june\bin\MCD\Debug\netcoreapp2.2\Tavisca.Bootcamp.LanguageBasics.Exercise1.runtimeconfig.dev.json
+G:\my.net\assignment_22june\bin\MCD\Debug\netcoreapp2.2\Tavisca.Bootcamp.LanguageBasics.Exercise1.dll
+G:\my.net\assignment_22june\bin\MCD\Debug\netcoreapp2.2\Tavisca.Bootcamp.LanguageBasics.Exercise1.pdb
+G:\my.net\assignment_22june\obj\MCD\Debug\netcoreapp2.2\Tavisca.Bootcamp.LanguageBasics.Exercise1.dll
+G:\my.net\assignment_22june\obj\MCD\Debug\netcoreapp2.2\Tavisca.Bootcamp.LanguageBasics.Exercise1.pdb

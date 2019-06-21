@@ -1,5 +1,7 @@
 ﻿using System;
-
+using System.Collections.Generic;
+using System.Linq;
+using System.Text.RegularExpressions;
 namespace Tavisca.Bootcamp.LanguageBasics.Exercise1
 {
     class Program
@@ -20,19 +22,15 @@ namespace Tavisca.Bootcamp.LanguageBasics.Exercise1
             Console.WriteLine($"{args} : {result}");
         }
 
-       public static int FindDigit(string equation)
+      public static int FindDigit(string equation)
         {
             // Add your code here.
             double result=0.0;
-             int index=0;
+            int index=0;
             string tempString="";
             string[] subEq=Regex.Split(equation,"=");
             subEq[0]=subEq[0].Replace('*','=');
-            
             string[] substr=Regex.Split(subEq[0],"=");
-                                                Console.WriteLine(substr[0]);
-            Console.WriteLine(substr[1]);
-
             
             if (subEq[0].Contains("?"))
             {
@@ -41,13 +39,11 @@ namespace Tavisca.Bootcamp.LanguageBasics.Exercise1
                     index=substr[0].IndexOf('?');
                     result= Convert.ToDouble(double.Parse(subEq[1])/double.Parse(substr[1]));
                     tempString=substr[0];
-                
                 }
                 else if(substr[1].Contains("?"))
                 {
                     index=substr[1].IndexOf('?');
                     result= Convert.ToDouble(double.Parse(subEq[1])/double.Parse(substr[0]));
-                    Console.WriteLine(result);
                     tempString=substr[1];
 
                 }
@@ -64,13 +60,12 @@ namespace Tavisca.Bootcamp.LanguageBasics.Exercise1
             }
             else
             {
-                Console.WriteLine(((int)result).ToString()[index]);
-                Console.WriteLine(index);
-                int temp_result=int.Parse(new string(((int)result).ToString()[index], index));              
-                return temp_result;
+                char result_string=((int)result).ToString()[index];
+                return int.Parse(result_string.ToString());
             }
 
             //throw new NotImplementedException();
         }
+    
     }
 }
